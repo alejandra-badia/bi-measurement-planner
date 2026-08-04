@@ -54,7 +54,9 @@ Upon submission, the application processes inputs through sanitization pipelines
 
 ## Architecture Diagram
 
-![](architecture/architecture-diagram.png)
+<p align="center">
+  <img src="architecture/architecture-diagram.png" alt="Architecture Diagram" width="600">
+</p>
 
 ---
 
