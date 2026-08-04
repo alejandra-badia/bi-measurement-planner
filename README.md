@@ -6,7 +6,7 @@ An enterprise workflow web application designed to eliminate "garbage-in, garbag
 
 ---
 
-## Executive Impact & Portfolio Value
+## Executive Impact & Value
 
 | Challenge | Traditional BI Workflow | BI Measurement Planner Solution |
 | :--- | :--- | :--- |
