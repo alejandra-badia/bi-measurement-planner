@@ -24,7 +24,7 @@ An enterprise workflow web application designed to eliminate "garbage-in, garbag
 
 | Metrics Strategy | Data Model |
 |-----------------------|--------------|
-| ![](assets/grid-metrics-strategy.png) | ![](assets/data-model.png) |
+| ![](assets/grid-metrics-strategy.png) | ![](assets/grid-data-model.png) |
 
 ---
 
@@ -32,7 +32,7 @@ An enterprise workflow web application designed to eliminate "garbage-in, garbag
 
 To ensure a seamless developer handoff, the application includes a dedicated module for BI report wireframing. Users map strategic KPIs directly to report pages, choose visual types, define required slicers, and establish page-level interactivity rules (Tooltips/Drillthroughs).
 
-| ![](assets/report-design.png) |
+![](assets/report-design.png)
 ---
 
 ## Core Capabilities & Technical Architecture
@@ -68,7 +68,7 @@ This repository serves as **Phase 1 (Planning & Governance)** for the **[Marketi
 
 ## Results & Process Analytics
 
-For this project, I analyzed the data analysis process itself. By implementing this engine as the governance gate, I evaluated the standard BI development lifecycle to identify systemic inefficiencies and delivered targeted solutions to optimize development throughput, data adoption, and reporting quality.
+By implementing this engine as the governance gate, I evaluated the standard BI development lifecycle to identify systemic inefficiencies and delivered targeted solutions to optimize development throughput, data adoption, and reporting quality.
 
 ### Strategic Recommendations
 
