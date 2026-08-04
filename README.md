@@ -4,7 +4,6 @@
 
 An enterprise workflow web application designed to eliminate "garbage-in, garbage-out" in Business Intelligence projects. Built on **Ralph Kimball’s Dimensional Modeling framework**, the Planner enforces requirements gathering, data grain alignment, field-level ETL mapping, and row-level security (RLS) governance *before* a single line of DAX or M code is written. By enforcing this fundamental planning stage, the application ensures that data analytics models, and subsequently BI Reports, provide the precise information required to drive measurable business results.
 
----
 
 ## Executive Impact & Value
 
@@ -14,7 +13,6 @@ An enterprise workflow web application designed to eliminate "garbage-in, garbag
 | **Technical Lineage** | Disconnected data dictionaries out of sync with reports. | Populates information for downstream ETL mappings and Star Schema cards |
 | **Developer Handoff** | Manual, error-prone DAX and Star Schema setup | Generates machine-readable `.json` and clean `.md` Data Dictionaries |
 
----
 
 ## Application Showcase
 
@@ -26,7 +24,6 @@ An enterprise workflow web application designed to eliminate "garbage-in, garbag
 |-----------------------|--------------|
 | ![](assets/grid-metrics-strategy.png) | ![](assets/grid-data-model.png) |
 
----
 
 ## Report Canvas & UX Design
 
@@ -34,7 +31,6 @@ To ensure a seamless developer handoff, the application includes a dedicated mod
 
 ![](assets/report-design.png)
 
----
 
 ## Core Capabilities & Technical Architecture
 
@@ -50,7 +46,6 @@ Upon submission, the application processes inputs through sanitization pipelines
 * **Anti-XSS & Path Traversal Safeguards:** Strictly sanitizes input parameters and enforces server directory jailing (`realpath()` validation) to prevent directory traversal attacks
 * **Resilient Draft Persistence:** Debounced `localStorage` engine saves keystrokes automatically and rebuilds dynamic DOM trees seamlessly upon browser refreshes or accidental window closes
 
----
 
 ## Architecture Diagram
 
@@ -58,7 +53,6 @@ Upon submission, the application processes inputs through sanitization pipelines
   <img src="architecture/architecture-diagram.png" alt="Architecture Diagram" height="600">
 </p>
 
----
 
 ## Generated Spec Artifacts
 
@@ -69,7 +63,6 @@ The tool drives the collaborative communication required between different roles
 * [`sample-outputs/ecommerce_analytics_measurement_spec.json`](sample-outputs/ecommerce_analytics_measurement_spec.json) - *Full Machine Contract*
 * [`sample-outputs/ecommerce_analytics_data_dictionary.md`](sample-outputs/ecommerce_analytics_data_dictionary.md) - *GitHub-ready Data Dictionary*
 
----
 
 ## Results & Process Analytics
 
@@ -86,7 +79,6 @@ Enforce Ralph Kimball's Star Schema rigor at the requirements stage. The planner
 #### ✅ Recommendation 3: Implement Automated Lineage (Specs-as-Code)
 Do not treat documentation as an afterthought. Utilizing the generated `.md` Data Dictionary ensures documentation remains 100% in sync with the semantic model, boosting long-term maintainability and end-user data trust.
 
----
 
 ## How This Project Powers the Flagship Analytics Engine
 
