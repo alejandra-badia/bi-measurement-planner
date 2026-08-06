@@ -2,7 +2,7 @@
 
 > **Architectural Bridge Between Executive Business Strategy and Technical Data Engineering.**
 
-An enterprise workflow web application designed to eliminate "garbage-in, garbage-out" in Business Intelligence projects. Built on **Ralph Kimball’s Dimensional Modeling framework**, the Planner merges executive **user journey mapping** with technical requirements gathering, data grain alignment, field-level ETL mapping, and row-level security (RLS) governance *before* a single line of DAX or M code is written. By enforcing this fundamental planning stage, the application ensures that data analytics models, and subsequently BI Reports, provide the precise information required to drive measurable business results.
+An enterprise workflow web application designed to eliminate "garbage-in, garbage-out" in Business Intelligence projects. Built on **Ralph Kimball’s Dimensional Modeling framework**, the Planner merges executive **user journey mapping** with technical requirements gathering, data grain alignment, field-level ETL mapping, and row-level security (RLS) governance *before* a single line of DAX or M code is written. By enforcing this fundamental planning stage, the application ensures that data analytics models, and subsequently, BI Reports, provide the precise information required to drive measurable business results.
 
 
 ## Executive Impact & Value
