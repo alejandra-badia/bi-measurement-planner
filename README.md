@@ -35,7 +35,7 @@ To ensure a seamless developer handoff, the application includes a dedicated mod
 ## Core Capabilities & Technical Architecture
 
 ### 1. Cross-Section Data Lineage & Auto-Sync
-* **Smart Dropdown Engine:** The sections are designed to make data model design and its documentation a smoother and more intuitive process. Based on the Kimball framework  for demensional modeling, the tool follows a bottom-up approach to guide the user through the design of a data model that supports star, galaxy, and snowflake schemas.
+* **Smart Dropdown Engine:** The sections are designed to make data model design and its documentation a smoother and more intuitive process. Based on the Kimball framework  for dimensional modeling, the tool follows a bottom-up approach to guide the user through the design of a data model that supports star, galaxy, and snowflake schemas.
 
 ### 2. Multi-Format Spec Code Generation
 Upon submission, the application processes inputs through sanitization pipelines to generate production-ready documentation:
